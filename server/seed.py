@@ -7,7 +7,7 @@ with app.app_context():
 
     BakedGood.query.delete()
     Bakery.query.delete()
-    
+
     bakeries = []
     bakeries.append(Bakery(name='Delightful donuts'));
     bakeries.append(Bakery(name='Incredible crullers'));
